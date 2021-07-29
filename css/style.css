@@ -1,0 +1,224 @@
+/* google --- font --- link  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* header --- section --- css --- starts */
+
+.head-bg {
+	background: #264653;
+	color: #fff;
+}
+
+.fs-8 {
+	font-size: 4rem;
+}
+
+.fs-5-5 {
+	font-size: 1.1rem;
+}
+
+.btn-bg-orange {
+	background-color: #E76F51;
+	color: #fff;
+	padding: 0.5rem 2rem;
+}
+
+.modal-content {
+	background-color: #264653;
+}
+
+.nav-link {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.nav-link:hover {
+	color: #dc143c;
+}
+
+
+/* header --- section --- css --- ends */
+
+
+/* features --- section --- css --- starts  */
+
+.features-title {
+	color: #264653;
+}
+
+.features-para {
+	color: #E76F51;
+	position: relative;
+}
+
+.features-para::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	background: #E76F51;
+	height: 2.5px;
+	width: 105px;
+	transform: translateX(-50%);
+}
+
+.features-bike-img {
+	filter: grayscale(100%);
+}
+
+
+/* features --- section --- css --- ends  */
+
+
+/* latest --- news --- section --- css --- starts  */
+
+.card-title {
+	color: #18191F;
+}
+
+.card-text {
+	color: #6C6C6C;
+}
+
+.latest-btn {
+	background-color: #E76F51;
+	border: .1rem solid #E76F51;
+	color: #fff;
+	padding: 0.8rem 2rem;
+	margin-bottom: 0;
+}
+
+.latest-btn:hover {
+	background: transparent;
+	color: #E76F51;
+}
+
+
+/* latest --- news --- section --- css --- ends  */
+
+
+/* client --- section --- css --- starts here  */
+
+.client-title {
+	color: #0A0826;
+}
+
+.client-title span {
+	color: #E76F51;
+}
+
+.card-rating i {
+	font-size: 1.1rem;
+	color: #E77C40;
+}
+
+.name-title {
+	font-size: 1.1rem;
+	color: #23A6F0;
+}
+
+.name-title span {
+	font-size: 1rem;
+	color: #252B42;
+}
+
+.gt-color {
+	color: #E76F51;
+}
+
+.google-map iframe {
+	height: 510px;
+}
+
+.add-color {
+	color: #E76F51;
+}
+
+
+
+
+/* client --- section --- css --- ends here  */
+
+
+/* footer --- section --- css --- starts --- here  */
+
+footer {
+	background: #0B0D17;
+}
+
+.footer-link a,
+footer p,
+footer p a {
+	color: #fff;
+	font-size: 1.2rem;
+	margin-right: 15px;
+}
+
+.footer-link a:hover,
+footer p a:hover {
+	color: #E76F51;
+	text-decoration: underline;
+}
+
+
+/* footer --- section --- css --- ends --- here  */
+
+
+/* -----  Meadia ------  Query -------- Css  */
+
+@media (max-width:993px) {
+	.for-margin,
+	.faq-text {
+		margin-top: 40px;
+	}
+	.google-map iframe {
+		margin-top: 50px;
+	}
+	.opinion-img {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width:572px) {
+	.fs-8 {
+		font-size: 3rem;
+	}
+	.fs-5-5 {
+		font-size: 1rem;
+	}
+	.nav-link {
+		padding: .5rem;
+	}
+	.banner-text {
+		margin-bottom: 2.5rem;
+	}
+	.nav-cus {
+		justify-content: center !important;
+	}
+	.features-bike,
+	.single-news,
+	.client-single {
+		margin-bottom: 40px;
+	}
+	.for-margin {
+		margin-top: 0;
+	}
+	.accordion-button {
+		font-size: 0.8rem;
+	}
+	.footer-link a,
+	footer p,
+	footer p a {
+		font-size: 1rem;
+	}
+}
